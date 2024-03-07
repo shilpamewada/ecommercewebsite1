@@ -1,0 +1,46 @@
+
+
+/* Basic styling for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Add some space between cells */
+th, td {
+  padding: 15px;
+}
+
+/* Button styling */
+.btn {
+  padding: 8px 16px;
+  margin-right: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  /* Stack cells on small screens */
+  th, td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Hide the table header on small screens */
+  thead {
+    display: none;
+  }
+
+  /* Style the button for small screens */
+  .btn {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}

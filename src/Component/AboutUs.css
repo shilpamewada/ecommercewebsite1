@@ -1,0 +1,27 @@
+.about-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fce4ec; /* Light pink background color */
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+.shopping-image {
+  width: 100%; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 8px; /* Optional: add border-radius for rounded corners */
+}
+
+p {
+  text-align: left;
+  font-weight: 10px; /* Bold text */
+  color:gray; /* Dark text color */
+  margin: 10px; /* Remove top margin */
+}
