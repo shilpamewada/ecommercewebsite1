@@ -62,6 +62,7 @@ const Help = ({ onFormToggle }) => {
 
         <button type="submit">Submit</button>
       </form>
+      
     </div>
   );
 };

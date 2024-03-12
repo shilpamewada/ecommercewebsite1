@@ -51,7 +51,7 @@ function Login() {
           type="email"
           id="form3Example3"
           className="form-control form-control-lg"
-          placeholder="Username or email"
+          placeholder="Email"
           value={email}
           onChange={(e) => {
             setEmail(e.target.value);

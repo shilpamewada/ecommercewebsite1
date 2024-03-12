@@ -28,8 +28,10 @@ app.use('/update',require('./routes/upadte'))       //update data
 app.use('/login',require('./routes/Login'))     //login
 app.use('/register',require('./routes/Register'))  //Register
 app.use('/form',require('./routes/Form'))
-
+// app.use('/logout',require('./routes/reg'))
 app.use('/fetchtable',require('./routes/table')) //table
+app.use('/cart',require('./routes/carts')) 
+
 app.listen(3004,(req,res)=>{
     console.log("Server running")
 })
