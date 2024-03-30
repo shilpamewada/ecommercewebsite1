@@ -4,7 +4,7 @@ import shoppingImage1 from './shop.jpg'; // Adjust the path
 import shoppingImage2 from './shop3.jpg';
 import shoppingImage3 from './shop1.jpg';
 import shoppingImage4 from './shop2.jpg';
-import Images from './Images'; // Import the Images component
+ // Import the Images component
 
 const AboutUs = ({ addToCart }) => {
   return (
@@ -56,7 +56,7 @@ const AboutUs = ({ addToCart }) => {
         </p>
       </div>
       {/* Pass the addToCart function to the Images component */}
-      <Images addToCart={addToCart} />
+    
     </div>
   );
 };

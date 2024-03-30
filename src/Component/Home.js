@@ -2,6 +2,7 @@ import React from 'react';
 import Products from './Products';
 import Contact from './Contact';
 import { BrowserRouter } from 'react-router-dom';
+import Images from './Images';
 
 function Home({ addToCart }) {
   return (
@@ -19,7 +20,10 @@ function Home({ addToCart }) {
       </div>
 
       <Products addToCart={addToCart} /> {/* Pass addToCart as a prop to Products */}
+      <Images addToCart={addToCart} />
       <Contact />
+
+
     </div>
   );
 }

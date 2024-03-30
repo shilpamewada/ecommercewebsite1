@@ -33,7 +33,7 @@ function Contact(args) {
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style={{ visibility: 'visible',animationDelay: '0.6s',animationName: 'fadeInLeft', }}>
-                                <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                               <Link to="/ABOUTuS"><h3 class="f-title f_600 t_color f_size_18">AboutUs</h3></Link> 
                                 <ul class="list-unstyled f_list">
                                     <li><Link to="/">Company</Link></li>
                                     <li><Link to="/">Android App</Link></li>
@@ -46,7 +46,7 @@ function Contact(args) {
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style={{ visibility: 'visible',animationDelay: '0.6s',animationName: 'fadeInLeft', }}>
-                                <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                               <Link to ="/Help"><h3 class="f-title f_600 t_color f_size_18">Help</h3></Link> 
                                 <ul class="list-unstyled f_list">
                                     <li><Link to="/">FAQ</Link></li>
                                     <li><Link to="/">Term &amp; conditions</Link></li>

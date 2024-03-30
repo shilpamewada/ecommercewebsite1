@@ -24,8 +24,8 @@ function Images({ addToCart }) {
   return (
     <div className="box1">
       {products &&
-        products.map((item, index) => (
-          <div key={index} className="card">
+        products.map((item) => (
+          <div  className="card">
             <div>
               <img src={item.image} alt={item.name} />
               <Button
@@ -38,7 +38,7 @@ function Images({ addToCart }) {
             <h1 style={{ fontSize: '1rem' }}>{item.productid}</h1>
             <h1 style={{ fontSize: '1.5rem' }}>{item.name}</h1>
             <h1 style={{ fontSize: '1rem' }}>{item.subtitle}</h1>
-            <h1 style={{ fontSize: '1rem' }}>{item.price}</h1>
+            <h1 style={{ fontSize: '1rem' }}>{item.Price}</h1>
           </div>
         ))}
     </div>

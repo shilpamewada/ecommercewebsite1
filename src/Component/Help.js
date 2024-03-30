@@ -15,6 +15,7 @@ const Help = ({ onFormToggle }) => {
   const handlesubmit = async (e) => {
     e.preventDefault();
     alert('Your record has been recorded successfully');
+    navigate("/Home")
     console.log(formdata);
     try {
       let response = await axios.post('http://localhost:3004/fetchtable', formdata);
