@@ -1,51 +1,68 @@
-
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px; /* Space between cards */
+  padding: 15px;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.box1 img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Show whole image without cropping */
+  max-height: 300px; /* Limit max height for consistency */
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px;
+}
+
+.remove-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-now-button {
+  background-color: #0d6efd; /* Bootstrap info blue */
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grand-total {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
   .box1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 15px;
+    grid-template-columns: 1fr;
   }
-  
-  .card {
-    border: 1px solid black;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .box1 img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-  }
-  
-  .link {
-    margin-top: 10px;
-    display: block;
-    text-decoration: none;
-    color: #000;
-    background-color: #f8f9fa;
-    padding: 5px 10px;
-    border: 1px solid #343a40;
-    border-radius: 5px;
-  }
-  
-  .link:hover {
-    background-color: #343a40;
-    color: #fff;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .box1 {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-
-
-  
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import backgroundImage from './backimg.jpg'; // Import your background image
+import './Payment.css';
 
 function Payment() {
     const navigate = useNavigate();
