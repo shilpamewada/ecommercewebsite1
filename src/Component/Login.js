@@ -331,7 +331,6 @@ function Login() {
         {/* ✅ Responsive Footer Fix */}
         <div className="d-flex flex-column flex-sm-row flex-wrap text-center text-sm-start justify-content-between align-items-center py-3 px-4 px-xl-5 bg-gray">
           <div className="text-black mb-2 w-100 footer-text">
-            Myntra Collection @ 2023. All rights reserved.
           </div>
           <div>
             <Link to="#" className="text-black me-4">
