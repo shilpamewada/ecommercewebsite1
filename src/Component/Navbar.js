@@ -25,28 +25,29 @@ function Navbar() {
             <img src={logo} alt="Description" height={50} className="me-2" />
             MYNTRA
           </Link>
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-  <li className="nav-item">
-    <Link className="btn btn-outline-dark me-3" aria-current="page" to="/Home">
-      <i className="fa fa-home me-1"></i>Home
+         <ul className="navbar-nav mx-auto mb-4 mb-lg-1">
+  <li className="nav-item mb-2">
+    <Link className="btn btn-outline-dark me-4" aria-current="page" to="/Home">
+      <i className="fa fa-home me-3"></i>Home
     </Link>
   </li>
-  <li className="nav-item">
-    <Link className="btn btn-outline-dark me-3" to="/aboutus">
-      <i className="fa fa-inbox me-1"></i> About Us
+  <li className="nav-item mb-2">
+    <Link className="btn btn-outline-dark me-4" to="/aboutus">
+      <i className="fa fa-inbox me-3"></i> About Us
     </Link>
   </li>
-  <li className="nav-item">
-    <Link className="btn btn-outline-dark me-3" to="/Help">
-      <i className="fa fa-question-circle me-1"></i> Help
+  <li className="nav-item mb-2">
+    <Link className="btn btn-outline-dark me-4" to="/Help">
+      <i className="fa fa-question-circle me-3"></i> Help
     </Link>
   </li>
   <li className="nav-item">
     <Link className="btn btn-outline-dark" to="/products">
-      <i className="fa fa-product-hunt me-1"></i> Products
+      <i className="fa fa-product-hunt me-3"></i> Products
     </Link>
   </li>
 </ul>
+
 
           <div className="d-flex">
             <Link to="/cartt" className="btn btn-outline-dark me-2">
