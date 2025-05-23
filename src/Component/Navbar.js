@@ -25,19 +25,19 @@ function Navbar() {
             <img src={logo} alt="Description" height={50} className="me-2" />
             MYNTRA
           </Link>
-        <ul className="navbar-nav mx-auto mb-2 mb-lg-0 d-flex flex-wrap gap-3">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
   <li className="nav-item">
-    <Link className="btn btn-outline-dark" aria-current="page" to="/Home">
+    <Link className="btn btn-outline-dark me-3" aria-current="page" to="/Home">
       <i className="fa fa-home me-1"></i>Home
     </Link>
   </li>
   <li className="nav-item">
-    <Link className="btn btn-outline-dark" to="/aboutus">
+    <Link className="btn btn-outline-dark me-3" to="/aboutus">
       <i className="fa fa-inbox me-1"></i> About Us
     </Link>
   </li>
   <li className="nav-item">
-    <Link className="btn btn-outline-dark" to="/Help">
+    <Link className="btn btn-outline-dark me-3" to="/Help">
       <i className="fa fa-question-circle me-1"></i> Help
     </Link>
   </li>
@@ -47,7 +47,6 @@ function Navbar() {
     </Link>
   </li>
 </ul>
-
 
           <div className="d-flex">
             <Link to="/cartt" className="btn btn-outline-dark me-2">
