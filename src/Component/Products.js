@@ -1,4 +1,4 @@
-import React, { useState,useRef} from 'react';
+import React, { useState,useRef,useEffect} from 'react';
 import Skeleton from 'react-loading-skeleton';
 import { Button } from 'react-bootstrap';
 
@@ -6,7 +6,7 @@ function Products({ addToCart }) { // Accept addToCart as a prop
     const [data, setData] = useState([]);
     const [filter, setFilter] = useState(data);
     const [loading, setLoading] = useState(false);
-    let componentMounted = useRef (true);
+    let componentMounted = useRef (true);git
 
     useEffect(() => {
         const getProducts = async () => {
